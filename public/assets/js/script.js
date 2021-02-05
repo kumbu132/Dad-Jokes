@@ -23,9 +23,7 @@ const config = {
     Accept: "application/json",
   },
 };
-jokeBtn.addEventListener("click", () => {
-  getJoke();
-});
+jokeBtn.addEventListener("click", getJoke);
 
 jokeBtn.click();
 
